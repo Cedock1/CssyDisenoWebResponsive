@@ -1,0 +1,23 @@
+#contenedor{background-color: black;}
+#cabecera{
+  background-color: #5b7989;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 20%;
+  margin: 5px 10% auto 10%;
+}
+#titulo {
+  color: white;
+  text-shadow: 1px 2px #02010a;
+  float: left;
+  position: relative;
+  margin: 40px 30px;
+}
+#menu{
+  float: right;
+  position: relative;
+  margin: 40px 30px;
+}
+#m1{
+  text-decoration: none;
+}
