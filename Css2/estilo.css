@@ -4,7 +4,7 @@
   margin: 0 10% auto 10%;
   background-color: #5b7989;
   position: relative;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 #titulo{
   width: auto;
@@ -28,7 +28,6 @@
   position: absolute;
   top: 30%;
   right: 0;
-
 }
 #m1{
   text-decoration: none;
@@ -45,4 +44,46 @@
   margin: auto;
   padding-top: 5%;
   padding-bottom: 5%;
+}
+a{
+  color: white;
+}
+.imgsecundaria{
+  width: 80%;
+  height: auto;
+  margin: 0 10% auto 10%;
+  background-color: #d5c75f;
+  border: 1px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.i1{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+.i2{
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.bloque1{
+  width: 50%;
+  height: auto;
+  order: 1;
+}
+.bloque2{
+  width: 50%;
+  height: auto;
+  order:2;
+}
+figcaption{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+div [class*= "bloque"]{
+  min-width: 100px;
+  flex: 1 2 40%;
 }
