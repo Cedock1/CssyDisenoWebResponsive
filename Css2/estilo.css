@@ -61,11 +61,15 @@ a{
   width: 80%;
   display: block;
   margin: auto;
+  box-shadow: 5px 5px #82c3a6;
+  border: 2px solid black;
 }
 .i2{
   width: 80%;
   display: block;
   margin: auto;
+  box-shadow: 5px 5px #82c3a6;
+  border: 2px solid black;
 }
 
 .bloque1{
@@ -86,4 +90,10 @@ figcaption{
 div [class*= "bloque"]{
   min-width: 100px;
   flex: 1 2 40%;
+}
+.i1:hover{
+  transform: rotate(10deg);
+}
+.i2:hover{
+  transform: translate(20px,-5px);
 }
