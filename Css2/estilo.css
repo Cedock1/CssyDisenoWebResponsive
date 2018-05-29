@@ -104,15 +104,18 @@ div [class*= "bloque"]{
   background-color: #C6d5c5;
   position: relative;
   border-radius: 0 0 10px 10px;
-  column-count: 4;
-  column-width: 150px;
-  column-gap: 2em;
+  display: flex;
 }
 div[class*="son"]{
-  position: absolute;
-  height: 25%;
+  display: block;
+  min-width: 100px;
+  padding: 10px;
 }
+
 .i3{
   height:10px;
   width: 10px;
+}
+@@media (min-width: 900px)
+
 }
