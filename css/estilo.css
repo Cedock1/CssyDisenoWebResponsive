@@ -9,8 +9,82 @@
   margin: 0 10% auto 10%;
   padding: 0 25px 0 25px;
   color: white;
+  height: 20%;
 }
-#head #navbar{
+#navbar{
   width: 300px;
   text-align: center;
+}
+#m1{
+  text-decoration: none;
+}
+.blanco{
+  color: white;
+}
+#titulo{
+  text-align: center;
+  width: 300px;
+}
+.imgprincipal{
+  width: 80%;
+  height:auto;
+  margin: 0 10% auto 10%;
+  background-color: #82c3a6;
+}
+.foto1{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.imgsecundaria{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 10% auto 10%;
+  padding: 0;
+  background-color: #d5c75f;
+}
+.bloque1 , .bloque2 {
+  width: 500px;
+}
+.i1 , .i2{
+  display: block;
+  width: 90%;
+  height:auto;
+  margin: auto;
+  background-color: #82c3a6;
+}
+.sd{
+  text-decoration: none;
+}
+figcaption{
+  text-align: center;
+  color: white;
+}
+.madre{
+  background-color: #5b7989;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+  align-items: flex-start;
+  margin: 0 10% auto 10%;
+  padding: 0 25px 0 25px;
+  color: white;
+  height: auto;
+}
+div [class*='son']{
+  display: block;
+  width: 150px;
+}
+.i3{
+  height: 15px;
+  width: 15px;
+}
+h2 , p {
+  display: block;
 }
