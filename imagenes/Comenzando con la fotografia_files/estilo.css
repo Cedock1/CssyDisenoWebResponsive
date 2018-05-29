@@ -18,7 +18,7 @@
 #tit {
   text-shadow: 1px 2px #02010a;
   color: white;
-  text-align: left;
+  text-align: center;
 }
 #navbar{
   width: 30%;
@@ -27,22 +27,17 @@
 #head #navbar{
   position: absolute;
   top: 30%;
-  right: 0;
-
+  right: 5%;
 }
 #m1{
   text-decoration: none;
 }
 .imgprincipal{
   width: 80%;
-  height:auto;
+  height:60%;
   margin: 0 10% auto 10%;
-  background-color: #82c3a6;
+  background-color: #02010a;
 }
 .foto1{
-  width: 80%;
-  display: block;
   margin: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
