@@ -1,9 +1,11 @@
-#contenedor{background-color: black;}
+#contenedor{
+  font-family: 'Dancing Script', cursive;
+  }
 #cabecera{
   background-color: #5b7989;
   border-radius: 10px;
   overflow: hidden;
-  height: 20%;
+  height: 25%;
   margin: 5px 10% auto 10%;
 }
 #titulo {
@@ -12,12 +14,18 @@
   float: left;
   position: relative;
   margin: 40px 30px;
+  height: 70%;
 }
 #menu{
+  height: 30%;
   float: right;
   position: relative;
   margin: 40px 30px;
 }
 #m1{
   text-decoration: none;
+}
+.imagenes{
+  padding: 20px;
+  margin: 50px;
 }

@@ -1,0 +1,32 @@
+#head{
+  width: 80%;
+  height: 20%;
+  border: 1px solid black;
+  margin: 0 10% auto 10%;
+  background-color: black;
+  position: relative;
+}
+#titulo{
+  background-color: red;
+  width: auto;
+  height: auto;
+}
+#head  #titulo{
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+#navbar{
+  background-color: blue;
+  width: 30%;
+  height: auto;
+}
+#head #navbar{
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
