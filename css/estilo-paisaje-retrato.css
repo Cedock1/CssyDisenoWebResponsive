@@ -1,6 +1,6 @@
 html{
-  font-family: 'Dancing Script', cursive;
-  background-color: black
+  font-family: 'Dancing Script';
+  background-color: black;
 }
 #contedido{
   width: 900px;
@@ -10,6 +10,7 @@ html{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-self: center;
   justify-content: space-between;
   border-radius: 10px 10px 0 0;
   align-items: center;
@@ -32,52 +33,25 @@ html{
   text-align: center;
   width: 300px;
 }
-.imgprincipal{
-  width: 80%;
-  height:auto;
-  margin: 0 10% auto 10%;
-  background-color: #82c3a6;
-}
-.foto1{
-  width: 80%;
-  display: block;
-  margin: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-.imgsecundaria{
+#c-madre{
   display:flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-wrap: wrap ;
+  justify-content: center;
   margin: 0 10% auto 10%;
-  padding: 0;
-  background-color: #d5c75f;
-  border: 1px solid grey;
+  padding: 0 25px 0 25px;
+  height: auto;
 }
-.bloque1 , .bloque2 {
-  width: 50%;
+.c1,.c2,.c3,.c4,.c5,.c6{
+  width: 30%;
+  align-items: center;
+  padding: 10px;
 }
-.i1 , .i2{
+img{
   display: block;
   width: 100%;
-  height:auto;
-  margin: auto;
-  border: 2px solid #82c3a6;
-}
-.i1:hover{
-  transform: rotate(10deg);
-}
-.i2:hover{
-  transform: translate(20px,-5px);
-}
-.sd{
-  text-decoration: none;
-  color: white;
-}
-figcaption{
-  text-align: center;
-  color: white;
+  height: auto;
+  margin: 0;
 }
 .madre{
   background-color: #C6d5c5;
@@ -97,8 +71,8 @@ div [class*='son']{
   width: 155px;
 }
 .i3{
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
 }
 h2{
   color: black;
@@ -109,31 +83,35 @@ h2 , p {
 img{
   box-shadow: 2px  #02010a;
 }
+.sd{
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 900px) {
   #head{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 0 auto 0;
+    align-self: center;
+    align-items: center;
+    margin: 0 0 0 0;
   }
  #navbar{
    display: flex;
    flex-flow: column nowrap;
-  width: 90%;
-  height: auto;
+   width: 90%;
+   height: auto;
  }
- .imgprincipal{
-   width: 100%;
-   margin: 0 0 auto 0;
- }
- .imgsecundaria{
+ #c-madre{
    display: flex;
+   align-self: center;
+   align-items: center;
    flex-direction: column;
    justify-content: center;
    margin: 0 0 auto 0;
  }
- .bloque1 , .bloque2 {
-   width: 100%;
+ .c1,.c2,.c3,.c4,.c5,.c6{
+   width: 100%
  }
  .madre{
    display: flex;
