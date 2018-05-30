@@ -17,6 +17,17 @@ html{
   padding: 0 25px 0 25px;
   color: white;
   height: auto;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein{
+  from{
+    margin-top: 150%;
+  }
+  to{
+    margin-top: -5%;
+  }
+}
 }
 #navbar{
   width: 300px;
